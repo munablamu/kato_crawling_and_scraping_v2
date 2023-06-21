@@ -83,6 +83,7 @@ def extract_key(url: str) -> str:
     m = re.search(r'/([^/]+)$', url)
     return m.group(1)
 
+
 def normalize_spaces(s: str) -> str:
     """
     連続する空白を1つのスペースに置き換え、前後の空白を削除した新しい文字列を取得する
@@ -94,6 +95,7 @@ def normalize_spaces(s: str) -> str:
         str: 加工後の文字列
     """
     return re.sub(r'\s+', ' ', s).strip()
+
 
 if __name__ == '__main__':
     main()
