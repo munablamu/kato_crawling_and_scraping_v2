@@ -16,7 +16,7 @@ def main():
     collection.create_index('key', unique=True)
 
     session = requests.Session()
-    response = requests.get('https://gihyo.jp/dp')
+    response = session.get('https://gihyo.jp/dp')
 
     urls = scrape_list_page(response)
     for url in urls:
