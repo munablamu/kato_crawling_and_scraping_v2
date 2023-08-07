@@ -15,3 +15,4 @@ tmp.html
 *.geojson
 museums.js
 credentials.json
+node_modules/
