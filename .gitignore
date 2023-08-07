@@ -16,3 +16,5 @@ tmp.html
 museums.js
 credentials.json
 node_modules/
+package.json
+package-lock.json
