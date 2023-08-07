@@ -11,3 +11,7 @@ jgbcm_all.csv
 *.png
 *.pdf
 tmp.html
+*.db
+*.geojson
+museums.js
+credentials.json
