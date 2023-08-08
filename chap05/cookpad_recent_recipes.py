@@ -24,6 +24,7 @@ def main():
         logging.info('Navigating...')
         # Googleのトップ画面を開く。
         driver.get('https://cookpad.com/identity/session/new')
+        time.sleep(SLEEP_TIME)
 
         # タイトルに'Google'が含まれていることを確認する。
         assert 'クックパッド' in driver.title
